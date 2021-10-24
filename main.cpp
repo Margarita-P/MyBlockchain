@@ -1,4 +1,5 @@
 #include <iostream>
+#include "hashFunction.cpp"
 
 using namespace std;
 
@@ -7,17 +8,17 @@ class Block
     private:
         int PreviousHash;
         string Transaction;
-        int BlockHash;
+        string BlockHash;
     
     public:
         
         int GetPreviousHash () const {return PreviousHash; }
         string GetTransaction () const {return Transaction; }
-        int GetBlockHash () const {return BlockHash; }
+        string GetBlockHash () const {return BlockHash; }
 
         void SetPreviousHash (int _PreviousHash) {PreviousHash = _PreviousHash;}
         void SetTransaction (string _Transaction) {Transaction = _Transaction;}
-        void SetBlockHash (int _BlockHash) {BlockHash = _BlockHash;}
+        void SetBlockHash (string _BlockHash) {BlockHash = _BlockHash;}
 };
 int main()
 {
@@ -25,17 +26,20 @@ int main()
 
     Block1.SetPreviousHash (123456);
     Block1.SetTransaction ("Aistis 5 Margaritai");
-    Block1.SetBlockHash (23456);
+    string hash1;
+    hash1 = HASH("labas");
+    Block1.SetBlockHash(hash1);
 
     Block Block2;
 
     Block2.SetPreviousHash (125678);
     Block2.SetTransaction ("Aistis 5 Margaritai");
-    Block2.SetBlockHash (24326);
+    string hash2;
+    hash2 = HASH("sveikas");
+    Block2.SetBlockHash(hash2);
 
     cout << Block1.GetBlockHash() << endl;
     cout << Block2.GetBlockHash() << endl;
-
 
     return 0;
 }
