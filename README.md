@@ -15,6 +15,7 @@ Faile matomi tik 10 blokų pateiktų kaip pavyzdys, ir kiekvienas iš blokų ši
 Vietoj Merkle tree šioje versijoje bloko hash'as apskaičiuojamas sudėjus visas transakcijas.  
 Nonce šiuo metu yra unikalus skaičius, priskiriamas nuo 1 pridedant 1.  
 Kiekvienas blokas turi praeito bloko hash'ą, tačiau Block1 ima GenesisBlock hash'ą, kuris yra hardcodint'as.  
+Transakcijos imamos iš tekstinio failo Users.txt
 #### Kas bus tobulinama:  
 Bus pridedama versija bei "Difficulty target".  
 Bloko hash'as bus apskaičiuojamas pasitelkiant Merkle tree.  
