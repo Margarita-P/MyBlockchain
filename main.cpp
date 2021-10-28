@@ -15,7 +15,7 @@ class Users
 {
     public: 
         string Name[10];
-        //string publicKey;
+        //string publicKey[10];
         int Balance[10];
     private: 
         //string privateKey;
@@ -28,6 +28,7 @@ class Block
         string Name;
         int TimeStamp;
         int Nonce;
+        int version;
     
     public:
 
@@ -38,19 +39,31 @@ class Block
         string GetBlockName () const {return Name; }
         int GetTimeStamp () const {return TimeStamp; }
         int GetNonce () const {return Nonce; }
+        int GetVersion () const {return version; }
 
         void SetPreviousHash (string _PreviousHash) {PreviousHash = _PreviousHash;}
         void SetBlockHash (string _BlockHash) {BlockHash = _BlockHash;}
         void SetBlockName (string _Name) {Name = _Name;}
         void SetTimeStamp (int _TimeStamp) {TimeStamp = _TimeStamp;}
         void SetNonce (int _Nonce) {Nonce = _Nonce;}
+        void SetVersion (int _version) {version = _version;}
 };
-
 
 int counter = 0;
 int TBlock = 3;
 int BlockSk = 10;
+int x = 0;
 
+void PrintNoBlocks ()
+{
+    ofstream out4 ("info.txt");
+    out4 << x + BlockSk;
+}
+void GetBlockNo ()
+{
+    ifstream in ("info.txt");
+    in >> x;
+}
 bool CheckTransaction (Users U, Transactions T)
 {
     for(int i=0; i<BlockSk; i++)
@@ -106,14 +119,16 @@ void PrintBlockInfo (Block Block1)
     out << "Previous Hash: " << Block1.GetPreviousHash() << endl;
     out << "Time stamp: " << Block1.GetTimeStamp() << endl;
     out << "Nonce: " << Block1.GetNonce() << endl;
+    out << "Version: " << Block1.GetVersion() << endl;
     out << endl;
 }
 string GetBlockName (string BlockName)
 {
+    int kint = 0;
     counter ++;
-
+    kint = counter + x;
     BlockName = "Block";
-    BlockName += to_string(counter);
+    BlockName += to_string(kint);
 
     return BlockName;
 }
@@ -149,10 +164,10 @@ void GetTransactions (Block Block1, Block GenesisBlock, Transactions &T, Users &
         }
         hash1 = HASH(Transactions);
         Block1.SetBlockHash(hash1);
-        Block1.SetNonce(counter);
+        Block1.SetNonce(counter+x);
         PrintBlockInfo(Block1);
         hash2 = Block1.GetBlockHash();
-    
+        Block1.SetVersion(1);
     }
 }
 int main()
@@ -161,6 +176,9 @@ int main()
     Block GenesisBlock;
     Users U;
     Transactions T;
+
+    GetBlockNo ();
+    cout << x << "NO Blocks" << endl;
 
     GenesisBlock.SetBlockName("Block0");
     GenesisBlock.SetPreviousHash("0000");
@@ -177,6 +195,8 @@ int main()
         out3 << U.Name[i] <<" " << U.Balance[i] << endl;
     }
     out3 << endl;
+
+    PrintNoBlocks ();
 
     return 0;
 }
