@@ -22,4 +22,11 @@ Bus pridedama versija bei "Difficulty target".
 Bloko hash'as bus apskaičiuojamas pasitelkiant Merkle tree.  
 Bus daugiau transakcijų laikoma viename bloke.  
 Bus įvykdita transakcijų verifikavimo funkcija, "mining" funkcija.  
-Bus sukurtas pool'as transakcijų bei naudotojų su savais raktais, balansu.
+Bus sukurtas pool'as transakcijų bei naudotojų su savais raktais, balansu.  
+### Versija 0.12  
+Šioje versijoje realizuoti vartotojai, juos galima rasti Users.txt, o transakcijos saugomos dabar Transactions.txt.  
+Taip pat realizuota transakcijų verifikavimo sistema.  
+#### Apie realizaciją:  
+Vartotojai imami iš Users.txt failo, įvedami į atskirą klasę.  
+Transakcijos imamos iš Transactions.txt failo, įvedamos į atskirą klasę.  
+Vartotojų balansas yra atnaujinamas vykdant transakcijas - įvedant jas į blokus. Prieš atnaujinant balansą, kiekviena transakcija yra verifikuojama - patikrinama, ar vartotojas turi užtektinai pinigų, kad galėtų atlikti mokėjimą.
