@@ -58,7 +58,8 @@ Turint visus šiuos duomenis galime paleisti į terminalą parašant šias koman
  #### Balanso atnaujinimas:  
  Kuriant naują bloką yra įvykdomos transakcijos. Įvykdant transakciją iš pirmoje vietoje įrašyto vartotojo atimama pervedimo sumo, o prie antroje vietoje įrašyto vartotojo balanso pridedama pervedimo suma.
  #### Transakcijų verifikavimas:  
- Prieš įvykdant transakciją yra patikrinama ar transakcija yra validi. Patikrinama ar siuntėjas (pirmoje vietoje įrašytas vartotojas) turi tiek pinigų savo balansę. Pavyzdžiui: Margarita 5 Aistis. Margarita balansas = 2. Transakcija nevalidi, nes Margarita neturi 5 pinigų savo balanse.  
+ Prieš įvykdant transakciją yra patikrinama ar transakcija yra validi. Patikrinama ar siuntėjas (pirmoje vietoje įrašytas vartotojas) turi tiek pinigų savo balansę. Pavyzdžiui: Margarita 5 Aistis. Margarita balansas = 2. Transakcija nevalidi, nes Margarita neturi 5 pinigų savo balanse. 
+ Patobulinti: įgyvendinti transakcijų hash'o tikrinimą.  
  #### Išvedimas:  
  Blokai ir visa jų laikoma informacija išvedami į tekstinį failą BlockChainInfo.txt.  
  Vartotojų atnaujinti balansai išvedami į tekstinį failą NewBalance.txt. Balansai išvedami sukūrus tiek blokų kiek buvo nustatyta.  
