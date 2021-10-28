@@ -5,7 +5,7 @@ Pradėtas blokų grandinės kūrimas. Tai bus supaprastinta blokų grandinė, ku
 Pateikti blokų grandinės "griaučiai" - pati idėja kaip bus įgyvendinama blokų grandinė.   
 ### Versija 0.03  
 Susieta blokų grandinė su hash funkcija.   
-## Versija 0.1   
+# Versija 0.1   
 Realizuota blokų grandinė.  
 Blokų grandinė naudoja mano sukurtą "hash" funkciją.  
 Blokų grandinė turi detalų "output'inimą": Išvedamas bloko "vardas" (kelintas tai blokas), transakcijos (šiuo metu tik trys), šio bloko hash'as, praeito bloko hash'as, laiko žymė (angl. TimeStamp), bei identifikatorius (angl. Nonce). Vardas naudojamas, kad būtų lengviau atskirti tekstiniame faile kada prasideda sekantis blokas.  
@@ -30,7 +30,7 @@ Taip pat realizuota transakcijų verifikavimo sistema.
 Vartotojai imami iš Users.txt failo, įvedami į atskirą klasę.  
 Transakcijos imamos iš Transactions.txt failo, įvedamos į atskirą klasę.  
 Vartotojų balansas yra atnaujinamas vykdant transakcijas - įvedant jas į blokus. Prieš atnaujinant balansą, kiekviena transakcija yra verifikuojama - patikrinama, ar vartotojas turi užtektinai pinigų, kad galėtų atlikti mokėjimą.  
-## Versija 0.2  
+# Versija 0.2  
 #### Apie mano blokų grandinę:  
 Mano blokų grandinė naudoja mano kurtą hash'inimo funkciją.   
 Blokų grandinė realizuota naudojant klases. Yra blokų, vartotojų bei transakcijų klasės. Paeiliui yra imami iš tekstinių failų duomenys ir kai užpildoma blokų klasė atitinkamais kintamaisiais sukurtas blokas išvedamas į tekstinį failą. Taip išvedami visi blokai, kurie yra saugomi BlockChainInfo.txt.  
@@ -59,4 +59,10 @@ Turint visus šiuos duomenis galime paleisti į terminalą parašant šias koman
  Kuriant naują bloką yra įvykdomos transakcijos. Įvykdant transakciją iš pirmoje vietoje įrašyto vartotojo atimama pervedimo sumo, o prie antroje vietoje įrašyto vartotojo balanso pridedama pervedimo suma.
  #### Transakcijų verifikavimas:  
  Prieš įvykdant transakciją yra patikrinama ar transakcija yra validi. Patikrinama ar siuntėjas (pirmoje vietoje įrašytas vartotojas) turi tiek pinigų savo balansę. Pavyzdžiui: Margarita 5 Aistis. Margarita balansas = 2. Transakcija nevalidi, nes Margarita neturi 5 pinigų savo balanse.  
- 
+ #### Išvedimas:  
+ Blokai ir visa jų laikoma informacija išvedami į tekstinį failą BlockChainInfo.txt.  
+ Vartotojų atnaujinti balansai išvedami į tekstinį failą NewBalance.txt. Balansai išvedami sukūrus tiek blokų kiek buvo nustatyta.  
+ Kiek jau sukurtą blokų šioje blokų grandinėje išvedama į tekstinį failą info.txt.  
+ Patobulinimai: transakcijos būtų atnaujinamos po kiekvieno bloko įvykdytų transakcijų.  
+ #### Patobulinimai:  
+ Įgyvendinti mining.
