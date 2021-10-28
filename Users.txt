@@ -1,30 +1,10 @@
-Aistis 5 Karolis
-Karolis 3 Margarita
-Margarita 2 Marius
-Marius 9 Kuleris
-Kuleris 5 Mikas
-Mikas 6 Joris
-Joris 1 Dainius
-Dainius 3 Egle
-Egle 4 Auguste
-Auguste 3 Aistis
-Aistis 5 Karolis
-Karolis 3 Margarita
-Margarita 2 Marius
-Marius 9 Kuleris
-Kuleris 5 Mikas
-Mikas 6 Joris
-Joris 1 Dainius
-Dainius 3 Egle
-Egle 4 Auguste
-Auguste 3 Aistis
-Aistis 5 Karolis
-Karolis 3 Margarita
-Margarita 2 Marius
-Marius 9 Kuleris
-Kuleris 5 Mikas
-Mikas 6 Joris
-Joris 1 Dainius
-Dainius 3 Egle
-Egle 4 Auguste
-Auguste 3 Aistis
+Aistis 10
+Karolis 15
+Mikas 13
+Margarita 11
+Marius 12
+Joris 15
+Dainius 16
+Kuleris 14
+Egle 18
+Auguste 19
