@@ -1,20 +1,22 @@
 Block1
 Transaction: Aistis 5 Karolis
 Transaction: Karolis 3 Margarita
-Transaction: Margarita 2 Marius
-Hash: 1656548390B1835015120u235003168267704654L1140141682p1178473338t2
+Transaction: Margarita 20 Marius
+Hash: 1719638046B1741333864u1061910970441482594L1347107090p1223352018t
 Previous Hash: 0
 Time stamp: 20211028
 Nonce: 1
+Version: 4881696
 
 Block2
 Transaction: Marius 9 Kuleris
 Transaction: Kuleris 5 Mikas
 Transaction: Mikas 6 Joris
 Hash: 1957553144N999400252j20782478521150147156L970434740f812304108t00
-Previous Hash: 1656548390B1835015120u235003168267704654L1140141682p1178473338t2
+Previous Hash: 1719638046B1741333864u1061910970441482594L1347107090p1223352018t
 Time stamp: 20211029
 Nonce: 2
+Version: 1
 
 Block3
 Transaction: Joris 1 Dainius
@@ -24,67 +26,374 @@ Hash: 1462139148K1147398772j21022012b1147398772j556693808E200262901620
 Previous Hash: 1957553144N999400252j20782478521150147156L970434740f812304108t00
 Time stamp: 20211030
 Nonce: 3
+Version: 1
 
 Block4
 Transaction: Auguste 3 Aistis
-Transaction: Aistis 5 Karolis
-Transaction: Karolis 3 Margarita
+Transaction: Aistis 4 Karolis
+Transaction: Karolis 1 Margarita
 Hash: 1533906192B714917236v1303320300f13724470821091231904t1084243936y
 Previous Hash: 1462139148K1147398772j21022012b1147398772j556693808E200262901620
 Time stamp: 20211031
 Nonce: 4
+Version: 1
 
 Block5
-Transaction: Margarita 2 Marius
-Transaction: Marius 9 Kuleris
-Transaction: Kuleris 5 Mikas
+Transaction: Margarita 4 Marius
+Transaction: Marius 3 Kuleris
+Transaction: Kuleris 6 Mikas
 Hash: 364795964N1863502722h208408162j1376890436364795964N208408162j901
 Previous Hash: 1533906192B714917236v1303320300f13724470821091231904t1084243936y
 Time stamp: 20211032
 Nonce: 5
+Version: 1
 
 Block6
-Transaction: Mikas 6 Joris
-Transaction: Joris 1 Dainius
-Transaction: Dainius 3 Egle
+Transaction: Mikas 2 Joris
+Transaction: Joris 7 Dainius
+Transaction: Dainius 1 Egle
 Hash: 1748258564N20066466b881238250p740158230t1828246724s6200262901620
 Previous Hash: 364795964N1863502722h208408162j1376890436364795964N208408162j901
 Time stamp: 20211033
 Nonce: 6
+Version: 1
 
 Block7
-Transaction: Egle 4 Auguste
-Transaction: Auguste 3 Aistis
-Transaction: Aistis 5 Karolis
+Transaction: Egle 1 Auguste
+Transaction: Auguste 1 Aistis
+Transaction: Auguste 1 Aistis
 Hash: 1415012418F1060544950f8256408462143067458h1853201080u1382326186v
 Previous Hash: 1748258564N20066466b881238250p740158230t1828246724s6200262901620
 Time stamp: 20211034
 Nonce: 7
+Version: 1
 
 Block8
+Transaction: Aistis 1 Karolis
 Transaction: Karolis 3 Margarita
-Transaction: Margarita 2 Marius
-Transaction: Marius 9 Kuleris
-Hash: 267704654L1140141682p1178473338t2350031681159317888s2107853184x2
+Transaction: Margarita 5 Marius
+Hash: 1656548390B1835015120u235003168267704654L1140141682p1178473338t2
 Previous Hash: 1415012418F1060544950f8256408462143067458h1853201080u1382326186v
 Time stamp: 20211035
 Nonce: 8
+Version: 1
 
 Block9
-Transaction: Kuleris 5 Mikas
-Transaction: Mikas 6 Joris
-Transaction: Joris 1 Dainius
-Hash: 1291447396L926879620f775811848t1405891230864241176l2039411552N20
-Previous Hash: 267704654L1140141682p1178473338t2350031681159317888s2107853184x2
+Transaction: Marius 6 Kuleris
+Transaction: Kuleris 61 Mikas
+Transaction: Mikas 22 Joris
+Hash: 1340999108N693203314j825640846857803366L1060544950f887804554t262
+Previous Hash: 1656548390B1835015120u235003168267704654L1140141682p1178473338t2
 Time stamp: 20211036
 Nonce: 9
+Version: 1
 
 Block10
-Transaction: Dainius 3 Egle
-Transaction: Egle 4 Auguste
-Transaction: Auguste 3 Aistis
-Hash: 784930912E1387976440o812304108t20782478521486208768m1960913724h0
-Previous Hash: 1291447396L926879620f775811848t1405891230864241176l2039411552N20
+Transaction: Joris 4 Dainius
+Transaction: Dainius 19 Egle
+Transaction: Egle 1 Auguste
+Hash: 1530925000K999400252j21999780b999400252j784930912E00262901620026
+Previous Hash: 1340999108N693203314j825640846857803366L1060544950f887804554t262
 Time stamp: 20211037
 Nonce: 10
+Version: 1
 
+Block11
+Transaction: Aistis 5 Karolis
+Transaction: Karolis 3 Margarita
+Transaction: Margarita 20 Marius
+Hash: 1719638046B1741333864u1061910970441482594L1347107090p1223352018t
+Previous Hash: 0
+Time stamp: 20211028
+Nonce: 11
+Version: 4881696
+
+Block12
+Transaction: Marius 9 Kuleris
+Transaction: Kuleris 5 Mikas
+Transaction: Mikas 6 Joris
+Hash: 1957553144N999400252j20782478521150147156L970434740f812304108t00
+Previous Hash: 1719638046B1741333864u1061910970441482594L1347107090p1223352018t
+Time stamp: 20211029
+Nonce: 12
+Version: 1
+
+Block13
+Transaction: Joris 1 Dainius
+Transaction: Dainius 3 Egle
+Transaction: Egle 4 Auguste
+Hash: 1462139148K1147398772j21022012b1147398772j556693808E200262901620
+Previous Hash: 1957553144N999400252j20782478521150147156L970434740f812304108t00
+Time stamp: 20211030
+Nonce: 13
+Version: 1
+
+Block14
+Transaction: Auguste 3 Aistis
+Transaction: Aistis 4 Karolis
+Transaction: Karolis 1 Margarita
+Hash: 1533906192B714917236v1303320300f13724470821091231904t1084243936y
+Previous Hash: 1462139148K1147398772j21022012b1147398772j556693808E200262901620
+Time stamp: 20211031
+Nonce: 14
+Version: 1
+
+Block15
+Transaction: Margarita 4 Marius
+Transaction: Marius 3 Kuleris
+Transaction: Kuleris 6 Mikas
+Hash: 364795964N1863502722h208408162j1376890436364795964N208408162j901
+Previous Hash: 1533906192B714917236v1303320300f13724470821091231904t1084243936y
+Time stamp: 20211032
+Nonce: 15
+Version: 1
+
+Block16
+Transaction: Mikas 2 Joris
+Transaction: Joris 7 Dainius
+Transaction: Dainius 1 Egle
+Hash: 1748258564N20066466b881238250p740158230t1828246724s6200262901620
+Previous Hash: 364795964N1863502722h208408162j1376890436364795964N208408162j901
+Time stamp: 20211033
+Nonce: 16
+Version: 1
+
+Block17
+Transaction: Egle 1 Auguste
+Transaction: Auguste 1 Aistis
+Transaction: Auguste 1 Aistis
+Hash: 1415012418F1060544950f8256408462143067458h1853201080u1382326186v
+Previous Hash: 1748258564N20066466b881238250p740158230t1828246724s6200262901620
+Time stamp: 20211034
+Nonce: 17
+Version: 1
+
+Block18
+Transaction: Aistis 1 Karolis
+Transaction: Karolis 3 Margarita
+Transaction: Margarita 5 Marius
+Hash: 1656548390B1835015120u235003168267704654L1140141682p1178473338t2
+Previous Hash: 1415012418F1060544950f8256408462143067458h1853201080u1382326186v
+Time stamp: 20211035
+Nonce: 18
+Version: 1
+
+Block19
+Transaction: Marius 6 Kuleris
+Transaction: Kuleris 61 Mikas
+Transaction: Mikas 22 Joris
+Hash: 1340999108N693203314j825640846857803366L1060544950f887804554t262
+Previous Hash: 1656548390B1835015120u235003168267704654L1140141682p1178473338t2
+Time stamp: 20211036
+Nonce: 19
+Version: 1
+
+Block20
+Transaction: Joris 4 Dainius
+Transaction: Dainius 19 Egle
+Transaction: Egle 1 Auguste
+Hash: 1530925000K999400252j21999780b999400252j784930912E00262901620026
+Previous Hash: 1340999108N693203314j825640846857803366L1060544950f887804554t262
+Time stamp: 20211037
+Nonce: 20
+Version: 1
+
+Block21
+Transaction: Aistis 5 Karolis
+Transaction: Karolis 3 Margarita
+Transaction: Margarita 20 Marius
+Hash: 1719638046B1741333864u1061910970441482594L1347107090p1223352018t
+Previous Hash: 0
+Time stamp: 20211028
+Nonce: 21
+Version: 4881696
+
+Block22
+Transaction: Marius 9 Kuleris
+Transaction: Kuleris 5 Mikas
+Transaction: Mikas 6 Joris
+Hash: 1957553144N999400252j20782478521150147156L970434740f812304108t00
+Previous Hash: 1719638046B1741333864u1061910970441482594L1347107090p1223352018t
+Time stamp: 20211029
+Nonce: 22
+Version: 1
+
+Block23
+Transaction: Joris 1 Dainius
+Transaction: Dainius 3 Egle
+Transaction: Egle 4 Auguste
+Hash: 1462139148K1147398772j21022012b1147398772j556693808E200262901620
+Previous Hash: 1957553144N999400252j20782478521150147156L970434740f812304108t00
+Time stamp: 20211030
+Nonce: 23
+Version: 1
+
+Block24
+Transaction: Auguste 3 Aistis
+Transaction: Aistis 4 Karolis
+Transaction: Karolis 1 Margarita
+Hash: 1533906192B714917236v1303320300f13724470821091231904t1084243936y
+Previous Hash: 1462139148K1147398772j21022012b1147398772j556693808E200262901620
+Time stamp: 20211031
+Nonce: 24
+Version: 1
+
+Block25
+Transaction: Margarita 4 Marius
+Transaction: Marius 3 Kuleris
+Transaction: Kuleris 6 Mikas
+Hash: 364795964N1863502722h208408162j1376890436364795964N208408162j901
+Previous Hash: 1533906192B714917236v1303320300f13724470821091231904t1084243936y
+Time stamp: 20211032
+Nonce: 25
+Version: 1
+
+Block26
+Transaction: Mikas 2 Joris
+Transaction: Joris 7 Dainius
+Transaction: Dainius 1 Egle
+Hash: 1748258564N20066466b881238250p740158230t1828246724s6200262901620
+Previous Hash: 364795964N1863502722h208408162j1376890436364795964N208408162j901
+Time stamp: 20211033
+Nonce: 26
+Version: 1
+
+Block27
+Transaction: Egle 1 Auguste
+Transaction: Auguste 1 Aistis
+Transaction: Auguste 1 Aistis
+Hash: 1415012418F1060544950f8256408462143067458h1853201080u1382326186v
+Previous Hash: 1748258564N20066466b881238250p740158230t1828246724s6200262901620
+Time stamp: 20211034
+Nonce: 27
+Version: 1
+
+Block28
+Transaction: Aistis 1 Karolis
+Transaction: Karolis 3 Margarita
+Transaction: Margarita 5 Marius
+Hash: 1656548390B1835015120u235003168267704654L1140141682p1178473338t2
+Previous Hash: 1415012418F1060544950f8256408462143067458h1853201080u1382326186v
+Time stamp: 20211035
+Nonce: 28
+Version: 1
+
+Block29
+Transaction: Marius 6 Kuleris
+Transaction: Kuleris 61 Mikas
+Transaction: Mikas 22 Joris
+Hash: 1340999108N693203314j825640846857803366L1060544950f887804554t262
+Previous Hash: 1656548390B1835015120u235003168267704654L1140141682p1178473338t2
+Time stamp: 20211036
+Nonce: 29
+Version: 1
+
+Block30
+Transaction: Joris 4 Dainius
+Transaction: Dainius 19 Egle
+Transaction: Egle 1 Auguste
+Hash: 1530925000K999400252j21999780b999400252j784930912E00262901620026
+Previous Hash: 1340999108N693203314j825640846857803366L1060544950f887804554t262
+Time stamp: 20211037
+Nonce: 30
+Version: 1
+
+Block31
+Transaction: Aistis 5 Karolis
+Transaction: Karolis 3 Margarita
+Transaction: Margarita 20 Marius
+Hash: 1719638046B1741333864u1061910970441482594L1347107090p1223352018t
+Previous Hash: 0
+Time stamp: 20211028
+Nonce: 31
+Version: 4881696
+
+Block32
+Transaction: Marius 9 Kuleris
+Transaction: Kuleris 5 Mikas
+Transaction: Mikas 6 Joris
+Hash: 1957553144N999400252j20782478521150147156L970434740f812304108t00
+Previous Hash: 1719638046B1741333864u1061910970441482594L1347107090p1223352018t
+Time stamp: 20211029
+Nonce: 32
+Version: 1
+
+Block33
+Transaction: Joris 1 Dainius
+Transaction: Dainius 3 Egle
+Transaction: Egle 4 Auguste
+Hash: 1462139148K1147398772j21022012b1147398772j556693808E200262901620
+Previous Hash: 1957553144N999400252j20782478521150147156L970434740f812304108t00
+Time stamp: 20211030
+Nonce: 33
+Version: 1
+
+Block34
+Transaction: Auguste 3 Aistis
+Transaction: Aistis 4 Karolis
+Transaction: Karolis 1 Margarita
+Hash: 1533906192B714917236v1303320300f13724470821091231904t1084243936y
+Previous Hash: 1462139148K1147398772j21022012b1147398772j556693808E200262901620
+Time stamp: 20211031
+Nonce: 34
+Version: 1
+
+Block35
+Transaction: Margarita 4 Marius
+Transaction: Marius 3 Kuleris
+Transaction: Kuleris 6 Mikas
+Hash: 364795964N1863502722h208408162j1376890436364795964N208408162j901
+Previous Hash: 1533906192B714917236v1303320300f13724470821091231904t1084243936y
+Time stamp: 20211032
+Nonce: 35
+Version: 1
+
+Block36
+Transaction: Mikas 2 Joris
+Transaction: Joris 7 Dainius
+Transaction: Dainius 1 Egle
+Hash: 1748258564N20066466b881238250p740158230t1828246724s6200262901620
+Previous Hash: 364795964N1863502722h208408162j1376890436364795964N208408162j901
+Time stamp: 20211033
+Nonce: 36
+Version: 1
+
+Block37
+Transaction: Egle 1 Auguste
+Transaction: Auguste 1 Aistis
+Transaction: Auguste 1 Aistis
+Hash: 1415012418F1060544950f8256408462143067458h1853201080u1382326186v
+Previous Hash: 1748258564N20066466b881238250p740158230t1828246724s6200262901620
+Time stamp: 20211034
+Nonce: 37
+Version: 1
+
+Block38
+Transaction: Aistis 1 Karolis
+Transaction: Karolis 3 Margarita
+Transaction: Margarita 5 Marius
+Hash: 1656548390B1835015120u235003168267704654L1140141682p1178473338t2
+Previous Hash: 1415012418F1060544950f8256408462143067458h1853201080u1382326186v
+Time stamp: 20211035
+Nonce: 38
+Version: 1
+
+Block39
+Transaction: Marius 6 Kuleris
+Transaction: Kuleris 61 Mikas
+Transaction: Mikas 22 Joris
+Hash: 1340999108N693203314j825640846857803366L1060544950f887804554t262
+Previous Hash: 1656548390B1835015120u235003168267704654L1140141682p1178473338t2
+Time stamp: 20211036
+Nonce: 39
+Version: 1
+
+Block40
+Transaction: Joris 4 Dainius
+Transaction: Dainius 19 Egle
+Transaction: Egle 1 Auguste
+Hash: 1530925000K999400252j21999780b999400252j784930912E00262901620026
+Previous Hash: 1340999108N693203314j825640846857803366L1060544950f887804554t262
+Time stamp: 20211037
+Nonce: 40
+Version: 1
