@@ -44,26 +44,39 @@ Turint visus šiuos duomenis galime paleisti į terminalą parašant šias koman
  g++ -std=c++11 main.cpp -o main  ./main  
  ### Blokų grandinės funkcijos:  
  #### Blokų grandinės laikomi duomenys:  
- Bloko pavadinimas, transakcijos, bloko hash'as, praeito bloko hash'as, laiko žymė, "nonce", versija.  
+ Bloko pavadinimas, transakcijos, bloko hash'as, praeito bloko hash'as, laiko žymė, "nonce", versija.    
  Patobulinti: pridėti difficulty target.  
  #### Vartotojai:  
- Vartotojai turi vardą bei savo balansą, kuris yra atnaujinamas atlikus transakcijas.  
+ Vartotojai turi vardą bei savo balansą, kuris yra atnaujinamas atlikus transakcijas.    
  Patobulinti: pridėti viešajį bei privatųjį raktus.  
  #### Transakcijos:  
- Transakcijos rašomos tokiu formatu: Vardas skaičius Vardas. Pirmasis vardas tai vartotojo, kuris siunčia pinigus, antrasis vardas tai gavėjo vardas. O skaičius tai siunčiama suma.  
+ Transakcijos rašomos tokiu formatu: Vardas skaičius Vardas. Pirmasis vardas tai vartotojo, kuris siunčia pinigus, antrasis vardas tai gavėjo vardas. O skaičius tai siunčiama suma.    
  Patobulinti: transakcijų siuntėjas bei gavėjas būtų atskiriamas pagal savo public key, o ne vardą.  
  #### Bloko hash gavimas:  
- Bloko hashas gaunamas sudėjus visas transakcijas ir gautą string atidavus kaip įvestį hash funkcijai.  
+ Bloko hashas gaunamas sudėjus visas transakcijas ir gautą string atidavus kaip įvestį hash funkcijai.    
  Patobulinti: realizuoti Merkle tree.  
  #### Balanso atnaujinimas:  
  Kuriant naują bloką yra įvykdomos transakcijos. Įvykdant transakciją iš pirmoje vietoje įrašyto vartotojo atimama pervedimo sumo, o prie antroje vietoje įrašyto vartotojo balanso pridedama pervedimo suma.
  #### Transakcijų verifikavimas:  
- Prieš įvykdant transakciją yra patikrinama ar transakcija yra validi. Patikrinama ar siuntėjas (pirmoje vietoje įrašytas vartotojas) turi tiek pinigų savo balansę. Pavyzdžiui: Margarita 5 Aistis. Margarita balansas = 2. Transakcija nevalidi, nes Margarita neturi 5 pinigų savo balanse. 
+ Prieš įvykdant transakciją yra patikrinama ar transakcija yra validi. Patikrinama ar siuntėjas (pirmoje vietoje įrašytas vartotojas) turi tiek pinigų savo balansę. Pavyzdžiui: Margarita 5 Aistis. Margarita balansas = 2. Transakcija nevalidi, nes Margarita neturi 5 pinigų savo balanse.   
  Patobulinti: įgyvendinti transakcijų hash'o tikrinimą.  
  #### Išvedimas:  
  Blokai ir visa jų laikoma informacija išvedami į tekstinį failą BlockChainInfo.txt.  
  Vartotojų atnaujinti balansai išvedami į tekstinį failą NewBalance.txt. Balansai išvedami sukūrus tiek blokų kiek buvo nustatyta.  
- Kiek jau sukurtą blokų šioje blokų grandinėje išvedama į tekstinį failą info.txt.  
+ Kiek jau sukurtą blokų šioje blokų grandinėje išvedama į tekstinį failą info.txt.    
  Patobulinimai: transakcijos būtų atnaujinamos po kiekvieno bloko įvykdytų transakcijų.  
  #### Patobulinimai:  
- Įgyvendinti mining.
+ Įgyvendinti mining.  
+# Patobulinimai  
+Įgyvendintas mining - proof of work procesas.  
+Įgyvendintas merkle tree hash'inimas.  
+Transakcijose vartotojai atskiriami pagal savo raktą, o ne vardą.  
+Patobulintas išvedimas.  
+#### Failai, ir kam jie naudojami:  
+BlockInfo.txt - laikomi blokai, jų informaciją.  
+Info.txt - kiek sukurta blokų.  
+NewBalance.txt - vartotojų balansai, po kiek vieno bloko.  
+Transactions.txt - laikomos transakcijos.  
+UsedTransactions.txt - laikomos jau panaudotos transakcijos.  
+UserFinalBalance.txt - laikomi vartotojų balansai, sukūrus tiek blokų, kiek buvo nustatyta.  
+Users.txt - laikomi vartotojai, jų informacija.
