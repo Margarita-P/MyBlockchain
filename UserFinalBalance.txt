@@ -1,0 +1,60 @@
+
+Aistis 54
+Karolis 4
+Mikas 7
+Margarita 0
+Marius 14
+Joris 1
+Dainius 41
+Kuleris 15
+Egle 28
+Auguste 41
+
+
+Aistis 54
+Karolis 4
+Mikas 7
+Margarita 0
+Marius 14
+Joris 1
+Dainius 41
+Kuleris 15
+Egle 28
+Auguste 41
+
+
+Aistis 54
+Karolis 4
+Mikas 7
+Margarita 0
+Marius 9
+Joris 1
+Dainius 41
+Kuleris 30
+Egle 36
+Auguste 56
+
+
+Aistis 54
+Karolis 4
+Mikas 7
+Margarita 0
+Marius 9
+Joris 1
+Dainius 41
+Kuleris 30
+Egle 36
+Auguste 56
+
+
+Aistis 54
+Karolis 4
+Mikas 7
+Margarita 0
+Marius 21
+Joris 1
+Dainius 67
+Kuleris 92
+Egle 55
+Auguste 61
+

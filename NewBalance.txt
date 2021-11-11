@@ -1,0 +1,120 @@
+Block1
+Aistis 8
+Karolis 10
+Mikas 13
+Margarita 2
+Marius 7
+Joris 15
+Dainius 23
+Kuleris 17
+Egle 18
+Auguste 21
+
+Block2
+Aistis 32
+Karolis 4
+Mikas 5
+Margarita 0
+Marius 7
+Joris 15
+Dainius 9
+Kuleris 17
+Egle 17
+Auguste 28
+
+Block3
+Aistis 32
+Karolis 4
+Mikas 5
+Margarita 0
+Marius 2
+Joris 15
+Dainius 7
+Kuleris 4
+Egle 32
+Auguste 33
+
+Block4
+Aistis 44
+Karolis 4
+Mikas 7
+Margarita 0
+Marius 2
+Joris 1
+Dainius 29
+Kuleris 11
+Egle 23
+Auguste 33
+
+Block5
+Aistis 30
+Karolis 4
+Mikas 7
+Margarita 0
+Marius 14
+Joris 1
+Dainius 31
+Kuleris 9
+Egle 33
+Auguste 32
+
+Block6
+Aistis 54
+Karolis 4
+Mikas 7
+Margarita 0
+Marius 14
+Joris 1
+Dainius 41
+Kuleris 15
+Egle 28
+Auguste 41
+
+Block7
+Aistis 54
+Karolis 4
+Mikas 7
+Margarita 0
+Marius 9
+Joris 1
+Dainius 39
+Kuleris 30
+Egle 36
+Auguste 54
+
+Block8
+Aistis 54
+Karolis 4
+Mikas 7
+Margarita 0
+Marius 9
+Joris 1
+Dainius 41
+Kuleris 30
+Egle 36
+Auguste 56
+
+Block9
+Aistis 54
+Karolis 4
+Mikas 7
+Margarita 0
+Marius 9
+Joris 1
+Dainius 54
+Kuleris 31
+Egle 45
+Auguste 58
+
+Block10
+Aistis 54
+Karolis 4
+Mikas 7
+Margarita 0
+Marius 21
+Joris 1
+Dainius 67
+Kuleris 92
+Egle 55
+Auguste 61
+
