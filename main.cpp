@@ -364,7 +364,6 @@ int main()
     }
     out2 << endl;
     out2.close();
-
     PrintNoBlocks ();
 
     return 0;
